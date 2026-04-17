@@ -4,7 +4,7 @@
 
 words = ["level", "python", "madam", "code", "radar"]
 
-result = [word for word in words if word == word[::-1] ]
+result = [word for word in words if word.upper() == word[::-1].upper() ]
 print(result)
 
 
